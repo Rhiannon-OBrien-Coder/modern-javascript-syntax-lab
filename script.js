@@ -83,3 +83,19 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 //EXERCISE 7
     //>Please see the importing and exporting files
 
+//EXERCISE 8
+    // Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+    // 1. `cat`
+
+    // 2. `white`
+
+    // The function should log a sentence 'The cat is white.' by default.
+    //The function should substitute the appropriate parameters when supplied arguments.
+
+    // Your code here
+    function makeASentence(noun = 'cat', adjective = 'white') {
+        let sentence = `The ${noun} is ${adjective}.`
+        console.log(sentence)
+    }
+    makeASentence()
