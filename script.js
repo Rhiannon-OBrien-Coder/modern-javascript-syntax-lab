@@ -73,9 +73,13 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
     // Use propertyName as a dynamic key in userProfile, assigning a relevant value.
 
     // Your code here
-    const userProfile = {
-        propertyName: "rhiannonobrien@gmail.com"
-    }
-    const selectedVariable = 'propertyName'
-    const selectedVariablestring = userProfile[selectedVariable]
-    console.log(selectedVariablestring)
+    // const userProfile = {
+    //     propertyName: "rhiannonobrien@gmail.com"
+    // }
+    // const selectedVariable = 'propertyName'
+    // const selectedVariablestring = userProfile[selectedVariable]
+    // console.log(selectedVariablestring)
+
+//EXERCISE 7
+    //>Please see the importing and exporting files
+
