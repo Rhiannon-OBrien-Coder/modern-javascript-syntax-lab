@@ -27,13 +27,23 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 //EXERCISE 3
     // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-    const car = {
-        make: 'Audi',
-        model: 'q5',
-    };
+    // const car = {
+    //     make: 'Audi',
+    //     model: 'q5',
+    // };
     
     // Your code here
-    const { make, model } = car
-    console.log(make)
-    console.log(model)
+    // const { make, model } = car
+    // console.log(make)
+    // console.log(model)
     //the main difference between these is the array uses brackets and the object uses curlys
+
+//EXERCISE 4
+    // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+    const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+    // Your code here
+    const moreToppings = ['Cheese', 'Mushrooms', 'Pepperoni']
+    const allPizzaToppings = [...pizzaToppings, ...moreToppings]
+    console.log(allPizzaToppings)
