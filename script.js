@@ -94,8 +94,24 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
     //The function should substitute the appropriate parameters when supplied arguments.
 
     // Your code here
-    function makeASentence(noun = 'cat', adjective = 'white') {
-        let sentence = `The ${noun} is ${adjective}.`
-        console.log(sentence)
-    }
-    makeASentence()
+    // function makeASentence(noun = 'cat', adjective = 'white') {
+    //     let sentence = `The ${noun} is ${adjective}.`
+    //     console.log(sentence)
+    // }
+    // makeASentence()
+
+//EXERCISE 9
+    // Convert the following `if...else` statement in to a ternary:
+
+    let pizza = 'tasty';
+
+    // if (pizza === 'tasty') {
+    // console.log('yum');
+    // } else {
+    // console.log('yuck');
+    // }
+
+    // Your code here
+    let pizzaStatus = pizza === 'tasty' ? 'yum' : 'yuck'
+
+    console.log(pizzaStatus)
