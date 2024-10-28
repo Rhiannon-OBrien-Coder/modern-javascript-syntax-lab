@@ -44,6 +44,21 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
     const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
     // Your code here
+    const controversialPizzaToppings = [...pizzaToppings]
+    console.log(controversialPizzaToppings)
     const moreToppings = ['Cheese', 'Mushrooms', 'Pepperoni']
-    const allPizzaToppings = [...pizzaToppings, ...moreToppings]
+    const allPizzaToppings = [...controversialPizzaToppings, ...moreToppings]
     console.log(allPizzaToppings)
+
+// //EXERCISE 5
+//     // Duplicate the following object and spread its values into a new variable `myCar`.
+
+//     const car = {
+//         make: 'Audi',
+//         model: 'q5',
+//     };
+  
+//   // Change the `model` property of `myCar` to 'q7'. Log both objects.
+  
+//   // Your code here
+  
